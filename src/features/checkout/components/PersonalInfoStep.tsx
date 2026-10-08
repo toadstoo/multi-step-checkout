@@ -12,7 +12,7 @@ interface StepProps {
 export const PersonalInfoStep: React.FC<StepProps> = ({ data, updateFields, errors }) => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <h2 style={{ marginBottom: '0.5rem' }}>Личные данные</h2>
+      <h2 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Личные данные</h2>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
         <Input
           label="Имя"
